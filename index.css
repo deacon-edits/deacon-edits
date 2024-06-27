@@ -69,17 +69,31 @@ h2{
     padding-bottom: 5vh;
 }
 
-a{
+.yt{
     background-color: white;
     border-radius: 25px;
     color: black;
     text-align: center;
     text-decoration: none;
     padding: 1vh 2vw;
-    margin-bottom: 15vh;   
+    margin-bottom: 3vh;   
     margin-left: 1vw;
 }
 
+.social{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1vh 1vw;
+    margin-bottom: 10vh;
+    transition: 1s;
+    background-color: transparent;
+}
+
+.social:hover{
+    text-shadow: 2px 2px white;
+}
 
 .container{
     display: flex;
@@ -89,7 +103,7 @@ a{
 
 
 #skills{
-    
+
 }
 
 @media only screen and (max-width : 786px){
