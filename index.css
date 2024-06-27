@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+/* Font Specs */
+@font-face {
+    font-family: mainFont;
+    src: url(fonts/main_font/main_font.ttf);
+}
+
+
+@font-face {
+    font-family: lemonMilk;
+    src: url(fonts/lemon_milk/lemonmilkRegular.otf);
+}
+ 
+@font-face {
+    font-family: yamaka;
+    src: url(fonts/yamaka/Yamaka.otf);
+}
+
+/* Intro Section */
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background-image: url(img/texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#intro img{
+    height: 25vh;
+    margin: 20vh 0vw 3vh 0vw;
+    border-radius: 50%;
+    outline-width: 2px;
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: 2px;
+    box-shadow:  0 0 0px 0px white;
+    transition: 1s;
+}
+
+
+#intro img:hover{
+    box-shadow:  0 0 50px 5px white;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'mainFont';
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'lemonMilk';
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding-bottom: 5vh;
+}
+
+a{
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 1vh 2vw;
+    margin-bottom: 15vh;   
+    margin-left: 1vw;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#skills{
+    
+}
+
+@media only screen and (max-width : 786px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1em;
+    }
+}
